@@ -1,0 +1,20 @@
+{
+  "name": "utc-offsets",
+  "version": "1.0.0",
+  "main": "./lib/cjs/index.js",
+  "types": "./lib/index.d.ts",
+  "module": "./lib/index.js",
+  "files": [
+    "lib/"
+  ],
+  "repository": "git@github.com:Semigradsky/utc-offsets.git",
+  "author": "Dmitry Semigradsky <semigradskyd@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
+    "prepublishOnly": "npm run buid"
+  },
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}
