@@ -33,7 +33,7 @@ console.log(minutesFromOffset('-09:30')) // -570
 ### getOffsets()
 
 Returns a `UTCOffsetInfo[]`.
-> `UTCOffsetInfo = { offset: string, minutes: number }[]`
+> `UTCOffsetInfo = { offset: string, minutes: number }`
 
 ### isValidOffset(offset: string)
 
