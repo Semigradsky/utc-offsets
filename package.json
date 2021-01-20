@@ -12,7 +12,7 @@
   "license": "MIT",
   "scripts": {
     "build": "tsc -p tsconfig.json && tsc -p tsconfig-cjs.json",
-    "prepublishOnly": "npm run buid"
+    "prepublishOnly": "npm run build"
   },
   "devDependencies": {
     "typescript": "^4.1.3"
